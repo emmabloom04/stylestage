@@ -1,0 +1,84 @@
+@import url('./variables.css');
+
+.page-footer {
+  background-color: var(--primary-color);
+  color: var(--light-text-color);
+  font-family: var(--subheading-and-body-font);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.page-footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page-footer a:hover,
+.page-footer a:focus {
+  color: var(--primary-hover-color);
+  text-decoration: underline;
+}
+
+.page-footer strong {
+  font-family: var(--bold-header-font);
+  color: var(--secondary-color);
+}
+
+.page-footer ul {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.page-footer li {
+  display: inline;
+}
+
+.page-footer svg {
+  width: 1em;
+  height: 1em;
+  fill: var(--accent-color);
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+
+.page-footer svg:hover {
+  fill: var(--primary-hover-color);
+}
+
+.page-footer p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.page-footer .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-footer .link-twittercontact {
+  color: var(--secondary-hover-color);
+}
+
+.page-footer .link-github {
+  color: var(--accent-color);
+}
+
+.page-footer .link-github:hover {
+  color: var(--primary-hover-color);
+}
+
+.page-footer .link-rss,
+.page-footer .link-support {
+  color: var(--secondary-color);
+}
+
+.page-footer .link-rss:hover,
+.page-footer .link-support:hover {
+  color: var(--secondary-hover-color);
+}
