@@ -6,6 +6,10 @@
     --accent-color: #04D9B2;
     --secondary-color: #03A678;
     --secondary-hover-color: #04BF7B;
-    
 
+    /* text colors */
+    --light-text-color: #FFF4D4;
+    --dark-text-color: #20222B;
+
+    
 }
