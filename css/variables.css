@@ -12,9 +12,15 @@
     --light-text-color: #FFF4D4;
     --dark-text-color: #20222B;
 
+    /* background color */
+    --background-color: #FFF4D4;
+
     /* fonts */
     --bold-header-font: "BBH Sans Bogle";
     /* USE ONLY AT THE TOP OF THE SITE, and anywhere else that you feel needs a bold title */
     --subheading-and-body-font: "Nunito";
 
+    /* font sizes */
+
+    /* spacing */
 }
