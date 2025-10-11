@@ -1,28 +1,27 @@
 /* Please use variables names from this file as you code! */
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 :root {
-    /* wintery color scheme */
-    --primary-color: #025159;
-    --primary-hover-color: #038C7F;
-    --accent-color: #04D9B2;
-    --secondary-color: #03A678;
-    --secondary-hover-color: #04BF7B;
+  /* wintery color scheme */
+  --primary-color: #025159;
+  --primary-hover-color: #038c7f;
+  --accent-color: #04d9b2;
+  --secondary-color: #03a678;
+  --secondary-hover-color: #04bf7b;
 
-    /* text colors */
-    --light-text-color: #f4f1e8;
-    --dark-text-color: #20222B;
+  /* text colors */
+  --light-text-color: #f4f1e8;
+  --dark-text-color: #20222b;
 
-    /* background color */
-    --background-color: #f4f1e8;
+  /* background color */
+  --background-color: #f4f1e8;
 
-    /* fonts */
-    --bold-header-font: "BBH Sans Bogle";
-    /* USE ONLY AT THE TOP OF THE SITE, and anywhere else that you feel needs a bold title */
-    --subheading-and-body-font: "Nunito";
+  /* fonts */
+  --bold-header-font: "BBH Sans Bogle";
+  /* USE ONLY AT THE TOP OF THE SITE, and anywhere else that you feel needs a bold title */
+  --subheading-and-body-font: "Nunito";
 
-    /* font sizes */
-    --bold-font-size: 2rem;
-    --font-size: 1.6rem;
+  /* font sizes */
+  --bold-font-size: 2rem;
+  --font-size: 1.6rem;
 
-    /* spacing */
 }
