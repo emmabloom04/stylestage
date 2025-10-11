@@ -73,6 +73,11 @@
     font-weight: 500;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin: .3rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  ul li:hover {
+    background-color: var(--primary-hover-color);
+    transform: scale(1.1);
   }
 
   p:nth-of-type(6),
