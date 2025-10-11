@@ -1,5 +1,5 @@
 /* garrett */
-@import url('./variables.css');
+@import url("./variables.css");
 
 .page-footer {
   position: relative;
@@ -90,7 +90,7 @@
 /* Aurora layers created by pseudo-elements */
 .page-footer::before,
 .page-footer::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;

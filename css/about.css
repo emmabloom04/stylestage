@@ -1,38 +1,36 @@
 /* anna */
-#about{
-    font: var(--subheading-and-body-font);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 4fr 1fr;
-    background-color: var( --background-color);
-    padding: 10px;
-    margin:0 auto;
-    gap:50px;
-    max-width: 1200px;
-    align-items: start;
-}
-h2{
-    color:var(--primary-color);
+#about {
+  font: var(--subheading-and-body-font);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--background-color);
+  padding: 10px;
+  margin: 0 auto;
+  gap: 50px;
+  max-width: 1200px;
+  align-items: start;
+  h2 {
+    color: var(--primary-color);
     font-size: 18px;
-}
-h2:first-of-type {
-    grid-column: 1/2; 
+  }
+  h2:first-of-type {
+    grid-column: 1/2;
     grid-row: 1/2;
-}
-h2:last-of-type {
-    grid-column: 2/3; 
+  }
+  h2:last-of-type {
+    grid-column: 2/3;
     grid-row: 1/2;
-}
-p:nth-of-type(1){
+  }
+  p:nth-of-type(1) {
     grid-column: 1/2;
     grid-row: 2/3;
-}
+  }
 
-p:nth-of-type(2){
+  p:nth-of-type(2) {
     grid-column: 1/2;
     grid-row: 3/4;
-}
-blockquote{
+  }
+  blockquote {
     grid-column: 1/2;
     grid-row: 4/5;
     background-color: var(--accent-color);
@@ -40,43 +38,43 @@ blockquote{
     border-radius: 6px;
     margin: 1.5rem 0;
     text-decoration: none;
-}
+  }
 
-p:nth-of-type(3) {
+  p:nth-of-type(3) {
     grid-column: 1/2;
-    grid-row: 5/6; 
-}
+    grid-row: 5/6;
+  }
 
-
-p:nth-of-type(4){
+  p:nth-of-type(4) {
     grid-column: 2/3;
     grid-row: 2/3;
-}
+  }
 
-p:nth-of-type(5){
+  p:nth-of-type(5) {
     grid-column: 2/3;
     grid-row: 3/4;
-}
-ul{
+  }
+  ul {
     grid-column: 2/3;
     grid-row: 4/5;
-    border: 2px solid var( --primary-hover-color);
+    border: 2px solid var(--primary-hover-color);
     border-radius: 5px;
     padding: 5px 10px;
     font-weight: 500;
-}
-ul li {
+  }
+  ul li {
     display: inline;
     background-color: var(--primary-color); /* pick any color you like */
     padding: 10px 15px; /* space inside each box */
     border-radius: 8px; /* rounded corners */
     color: white; /* text color */
     font-weight: 500; /* make text a bit bolder */
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
-}
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
 
-p:nth-of-type(6),
-p:nth-of-type(7){
+  p:nth-of-type(6),
+  p:nth-of-type(7) {
     grid-column: 2;
     grid-row: 5/6;
+  }
 }
