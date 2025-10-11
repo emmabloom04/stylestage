@@ -15,6 +15,7 @@
     border-left: solid;
     padding-left: 5px;
     border-width: 3px;
+    margin-bottom: 1.3rem;
   }
   h2:first-of-type {
     grid-column: 1/2;
@@ -41,6 +42,9 @@
     border-radius: 6px;
     margin: 1.5rem 0;
     text-decoration: none;
+    a {
+        color: var(--dark-text-color);
+    }
   }
 
   p:nth-of-type(3) {
