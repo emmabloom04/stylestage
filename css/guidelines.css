@@ -1,1 +1,28 @@
 /* gabriel */
+@import 'variables.css';
+
+#guidelines {
+	text-align: center;
+	background-color: var();
+	padding: 2rem;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	p {
+		padding: 10px;
+		font-size: 18px;
+	}
+	h3 {
+		background-color: var(--primary-color);
+		margin: 0 auto;
+		max-width: 70px;
+		border-radius: 15px;
+		padding: 10px;
+		color: #f4f1e8;
+	}
+	a {
+		text-decoration: none;
+		color: var(--primary-color);
+	}
+	a:hover {
+		color: var(--secondary-hover-color);
+	}
+}
