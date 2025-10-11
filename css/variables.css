@@ -21,8 +21,11 @@
     --subheading-and-body-font: "Nunito";
 
     /* font sizes */
-    --bold-font-size: 2rem;
-    --font-size: 1.6rem;
+
+    /* go no smaller than 1.5 rem for text */
+    --bold-font-size: 2.3rem;
+    --font-size: 1.5rem;
 
     /* spacing */
 }
+
