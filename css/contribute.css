@@ -1,1 +1,18 @@
 /* hyrum */
+
+@import url('./variables.css');
+
+article#contribute {
+    display: flexbox;
+    flex-direction: column;
+    text-align: start;
+
+    h2{
+        border-left: solid;
+        border-width:px;
+        border-color: var(--secondary-color);
+        border-width: 5px;
+
+        padding-left: 5px;
+    }
+}
