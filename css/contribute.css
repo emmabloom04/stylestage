@@ -6,7 +6,7 @@ article#contribute {
   display: flex;
   flex-direction: column;
   text-align: start;
-  margin: 15px;
+  margin: 3rem;
 
   h2 {
     border-left: solid;

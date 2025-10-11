@@ -1,6 +1,9 @@
 /* garrett */
 @import url("./variables.css");
 
+.profile, #styles {
+  margin: 2rem;
+}
 .page-footer {
   position: relative;
   background-color: var(--primary-color);
