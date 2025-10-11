@@ -16,6 +16,9 @@ h2,
 h3,
 h4 {
   color: var(--secondary-color);
+  border-left: solid;
+  padding-left: 5px;
+  border-width: 3px;
 }
 ul {
   list-style-type: none;
