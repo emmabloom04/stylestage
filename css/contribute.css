@@ -3,16 +3,22 @@
 @import url('./variables.css');
 
 article#contribute {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     text-align: start;
+    margin: 15px;
+
 
     h2{
         border-left: solid;
-        border-width:px;
         border-color: var(--secondary-color);
         border-width: 5px;
-
+        
         padding-left: 5px;
+        
+        font-size: var(--font-size);
+        color: var(--secondary-color);
+        font-family: var(--bold-header-font);
+        font-size: var(--bold-font-size);
     }
 }
