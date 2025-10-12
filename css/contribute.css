@@ -51,7 +51,6 @@ article#contribute {
     counter-reset: custom-num;
 
     li {
-
       margin-bottom: 10px;
       width: 100%;
       text-align: start;
@@ -61,16 +60,22 @@ article#contribute {
       font-family: var(--subheading-and-body-font);
 
       &::before {
-        align-self: center;
+        
         display: block;
+
+        text-align: center; 
+
+
         /* Increment and display the counter */
         counter-increment: custom-num;
         content: counter(custom-num);
 
         /* Styling  for the number */
         font-size: var(--font-size);
-
-        color: var(--secondary-color);
+        background-color: var(--secondary-color);
+        color: var(--background-color);
+        padding: 5px;
+        border-radius: 50%;
         margin-bottom: 5px;
       }
       
