@@ -60,11 +60,9 @@ article#contribute {
       font-family: var(--subheading-and-body-font);
 
       &::before {
-        
         display: block;
 
-        text-align: center; 
-
+        text-align: center;
 
         /* Increment and display the counter */
         counter-increment: custom-num;
@@ -78,7 +76,7 @@ article#contribute {
         border-radius: 50%;
         margin-bottom: 5px;
       }
-      
+
       a {
         color: var(--secondary-color);
         text-decoration: none;
@@ -89,29 +87,47 @@ article#contribute {
       }
     }
   }
-  div.container{
+  div.container {
     display: flex;
     flex-direction: column;
 
- a {
-        padding: 10px;
-        margin: 5px;
-        text-align: center;
+    a {
+      padding: 20px;
+      margin: 5px;
+      text-align: center;
 
-        color: var(--background-color);
-        background-color: var(--secondary-color);
-        text-decoration: none;
-      }
-      a:hover {
-        color: var(--primary-color);
-        background-color: var(--secondary-hover-color);
-        text-decoration: underline;
-      }
+      color: var(--background-color);
+      background-color: var(--secondary-color);
+      text-decoration: none;
+    }
+    a:hover {
+      color: var(--primary-color);
+      background-color: var(--secondary-hover-color);
+      text-decoration: underline;
+    }
   }
 }
 
 
 
-@media screen and (min-width: 600px){
-    
+@media screen and (min-width: 800px) {
+  article#contribute {
+    section.container {
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+
+    ol {
+      display: flex;
+      flex-direction: row;
+    }
+
+    div.container {
+      width: 100%;
+      display: flex;
+      background-color: var(--secondary-color);
+      flex-direction: row;
+      justify-content: left;
+    }
+  }
 }
