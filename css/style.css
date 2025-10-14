@@ -1,8 +1,8 @@
 /* ALL IMPORTS WILL BE IN THIS FILE */
-@import 'variables.css';
-@import 'global.css';
-@import 'header.css';
-@import 'about.css';
-@import 'guidlines.css';
-@import 'contribute.css';
-@import 'footer.css';
+@import "variables.css";
+@import "global.css";
+@import "header.css";
+@import "about.css";
+@import "guidelines.css";
+@import "contribute.css";
+@import "footer.css";
