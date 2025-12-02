@@ -54,6 +54,7 @@ article#contribute {
       margin-bottom: 10px;
       width: 100%;
       text-align: start;
+      position: relative;
 
       font-size: var(--font-size);
       color: var(--dark-text-color);
@@ -63,18 +64,33 @@ article#contribute {
         display: block;
 
         text-align: center;
+        justify-self: center;
 
         /* Increment and display the counter */
         counter-increment: custom-num;
         content: counter(custom-num);
 
-        /* Styling  for the number */
+        /* Styling for the number */
         font-size: var(--font-size);
         background-color: var(--secondary-color);
         color: var(--background-color);
         padding: 5px;
+        height: 2rem;
+        width: 2rem;
         border-radius: 50%;
         margin-bottom: 5px;
+      }
+
+      &::after {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        content: "";
+        display: block;
+        width: 25rem;
+        height: 10px;
+        background-color: var(--secondary-color);
+        z-index: -1;
       }
 
       a {
@@ -107,8 +123,6 @@ article#contribute {
     }
   }
 }
-
-
 
 @media screen and (min-width: 800px) {
   article#contribute {
