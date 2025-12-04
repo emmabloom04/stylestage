@@ -2,6 +2,15 @@
 
 @import url("./variables.css");
 
+/* * {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+} */
+
+
 article#contribute {
   display: flex;
   flex-direction: column;
@@ -86,10 +95,12 @@ article#contribute {
         top: calc(1rem + 5px);
         left: 20%;
         right: 20%;
+
         content: "";
         display: block;
-        width: calc(25rem - 2rem - 5px);
+
         height: 10px;
+
         background-color: var(--secondary-color);
         z-index: -1;
       }
