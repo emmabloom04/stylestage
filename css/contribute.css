@@ -135,6 +135,14 @@ article#contribute {
     ol {
       display: flex;
       flex-direction: row;
+
+      li {
+        width: 100%;
+        &::after {
+          left: calc(1rem + 5px);
+          right: calc(1rem + 5px);
+        }
+      }
     }
 
     div.container {
@@ -144,5 +152,14 @@ article#contribute {
       flex-direction: row;
       justify-content: left;
     }
+  }
+
+  .profile,
+  #styles {
+    background-color: aqua;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(40% - 10px);
+    box-sizing: border-box;
   }
 }
