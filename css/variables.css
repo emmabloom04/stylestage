@@ -20,8 +20,12 @@
   /* USE ONLY AT THE TOP OF THE SITE, and anywhere else that you feel needs a bold title */
   --subheading-and-body-font: "Nunito";
 
-  /* font sizes */
+  /* font sizes desktop */
   --bold-font-size: 2rem;
   --font-size: 1.6rem;
+
+  /* font sizes mobile */
+  --bold-font-size-mobile: 1.8rem;
+  --font-size-mobile: 1.1rem;
 
 }

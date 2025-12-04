@@ -16,15 +16,15 @@ article#contribute {
     padding: 10px;
     margin: 5px;
     color: var(--secondary-color);
-    font-family: var(--bold-header-font);
+    font-family: var(--bold-header-font-mobile);
     font-size: var(--bold-font-size);
   }
 
   p {
-    font-size: var(--font-size);
+    font-size: var(--font-size-mobile);
     color: var(--dark-text-color);
     font-family: var(--subheading-and-body-font);
-    font-size: var(--font-size);
+    font-size: var(--font-size-mobile);
 
     a {
       color: var(--secondary-color);
@@ -41,7 +41,7 @@ article#contribute {
     margin: 5px;
     color: var(--primary-color);
     font-family: var(--bold-header-font);
-    font-size: var(--bold-font-size);
+    font-size: var(--bold-font-size-mobile);
   }
 
   ol {
@@ -55,8 +55,8 @@ article#contribute {
       width: 100%;
       text-align: start;
       position: relative;
-
-      font-size: var(--font-size);
+      padding: 5px;
+      font-size: var(--font-size-mobile);
       color: var(--dark-text-color);
       font-family: var(--subheading-and-body-font);
 
@@ -83,11 +83,12 @@ article#contribute {
 
       &::after {
         position: absolute;
-        top: 1rem;
-        left: 1rem;
+        top: calc(1rem + 5px);
+        left: 20%;
+        right: 20%;
         content: "";
         display: block;
-        width: 25rem;
+        width: calc(25rem - 2rem - 5px);
         height: 10px;
         background-color: var(--secondary-color);
         z-index: -1;
