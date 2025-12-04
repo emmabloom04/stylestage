@@ -2,6 +2,15 @@
 
 @import url("./variables.css");
 
+/* * {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+} */
+
+
 article#contribute {
   display: flex;
   flex-direction: column;
@@ -16,15 +25,15 @@ article#contribute {
     padding: 10px;
     margin: 5px;
     color: var(--secondary-color);
-    font-family: var(--bold-header-font);
+    font-family: var(--bold-header-font-mobile);
     font-size: var(--bold-font-size);
   }
 
   p {
-    font-size: var(--font-size);
+    font-size: var(--font-size-mobile);
     color: var(--dark-text-color);
     font-family: var(--subheading-and-body-font);
-    font-size: var(--font-size);
+    font-size: var(--font-size-mobile);
 
     a {
       color: var(--secondary-color);
@@ -41,7 +50,7 @@ article#contribute {
     margin: 5px;
     color: var(--primary-color);
     font-family: var(--bold-header-font);
-    font-size: var(--bold-font-size);
+    font-size: var(--bold-font-size-mobile);
   }
 
   ol {
@@ -54,8 +63,9 @@ article#contribute {
       margin-bottom: 10px;
       width: 100%;
       text-align: start;
-
-      font-size: var(--font-size);
+      position: relative;
+      padding: 5px;
+      font-size: var(--font-size-mobile);
       color: var(--dark-text-color);
       font-family: var(--subheading-and-body-font);
 
@@ -63,18 +73,36 @@ article#contribute {
         display: block;
 
         text-align: center;
+        justify-self: center;
 
         /* Increment and display the counter */
         counter-increment: custom-num;
         content: counter(custom-num);
 
-        /* Styling  for the number */
+        /* Styling for the number */
         font-size: var(--font-size);
         background-color: var(--secondary-color);
         color: var(--background-color);
         padding: 5px;
+        height: 2rem;
+        width: 2rem;
         border-radius: 50%;
         margin-bottom: 5px;
+      }
+
+      &::after {
+        position: absolute;
+        top: calc(1rem + 5px);
+        left: 20%;
+        right: 20%;
+
+        content: "";
+        display: block;
+
+        height: 10px;
+
+        background-color: var(--secondary-color);
+        z-index: -1;
       }
 
       a {
@@ -108,8 +136,6 @@ article#contribute {
   }
 }
 
-
-
 @media screen and (min-width: 800px) {
   article#contribute {
     section.container {
@@ -120,6 +146,14 @@ article#contribute {
     ol {
       display: flex;
       flex-direction: row;
+
+      li {
+        width: 100%;
+        &::after {
+          left: calc(1rem + 5px);
+          right: calc(1rem + 5px);
+        }
+      }
     }
 
     div.container {
@@ -129,5 +163,13 @@ article#contribute {
       flex-direction: row;
       justify-content: left;
     }
+  }
+
+  .profile,
+  #styles {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(40% - 10px);
+    box-sizing: border-box;
   }
 }
