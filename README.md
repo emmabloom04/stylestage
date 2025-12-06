@@ -1,4 +1,4 @@
-# Style Stage WDD331R Assingment
+# Style Stage WDD331R Assignment
 The goal: To create a unique style stage webpage with the base css, adding our own unique style.
 ## IMPORTANT: Git branching
 In order to keep the project organized, git branching is essential. Please create your own branch before writing any code. Name your branch after your name so that it is easy to see who has done what work.
