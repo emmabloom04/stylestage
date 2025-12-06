@@ -23,3 +23,6 @@ ul {
 a {
     color: var(--secondary-color);
 }
+article {
+  margin: 100px;
+}
